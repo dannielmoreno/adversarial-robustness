@@ -63,7 +63,9 @@ img, label = next(iter(unit_loader))
 ![examples](examples.png)
 
 ### Bonus:
+
 a. Run AutoAttack on your best model! Check the documentation available in [this repository](https://github.com/fra31/auto-attack). Use norm='Linf' and eps=0.3 as parameters. Compare your robust accuracy to the SOTA in MNIST (reported in the AutoAttack repository). I encourage you to complete this bonus. It is easy and it might be useful if you wish to incorporate adversarial robustness in your projects. (**0.50 pts**)
+
 b. The student that achieves the highest robust accuracy with AutoAttack among the class will receive a **0.50** pts additional bonus. You are encouraged to share your highest robust accuracy in a thread on the Slack homework channel to simulate a ranking board. 
 
 
