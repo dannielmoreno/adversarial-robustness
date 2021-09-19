@@ -131,7 +131,7 @@ if mode == 'train':
     main_standard(model_standard_cnn, train_loader, test_loader, attack=pgd_linf, lr=1e-1, epochs=10)
 
 """
-TODO: 4. Based on the main_standard() function, create a main_adversarial() function that performs adversarial
+TODO: 5. Based on the main_standard() function, create a main_adversarial() function that performs adversarial
 training over an architecture and evaluates it with the tests set and with adversarial examples generated from the
 test set. Hint: You just have to change one line of code. Implement this code to train a model with adversarial training.
 """
@@ -145,7 +145,7 @@ if mode == 'train':
     main_adversarial(model_robust_cnn, train_loader, test_loader, attack=pgd_linf, lr=1e-1, epochs=10)
 
 """
-TODO: 5. Generate a 1x2 subplot in which you visualize the train, test and adversarial error as a function of the number
+TODO: 6. Generate a 1x2 subplot in which you visualize the train, test and adversarial error as a function of the number
 of training epochs for a) the model with standard training, b) the model with adversarial training. When you run the
 code with mode="plot_error", this figure should be shown and saved with the path "errors.png".
 """
@@ -154,7 +154,7 @@ if mode == "plot_error":
     print("Plot your errors here and save the figure as errors.png ")
 
 """
-TODO: 6. Experiment by training various models with adversarial examples. Compare their errors when varying the
+TODO: 7. Experiment by training various models with adversarial examples. Compare their errors when varying the
  following conditions:
       a) The type of attack and its parameters (fgsm and pgd - epsilon, alpha, number of iterations, etc.)
       b) PGD with zero and random initialization.
@@ -168,7 +168,7 @@ if mode == "best_model":
     print("Plot your errors here and save the figure as errors.png ")
 
 """
-TODO: 7. Visualize 3 adversarial examples that your baseline standard model misclassifies and your model with the lowest
+TODO: 8. Visualize 3 adversarial examples that your baseline standard model misclassifies and your model with the lowest
 adversarial error classifies correctly as a 1x3 subplot. Indicate the classes predicted by each model among with its 
 probability. When you run the code with mode="examples", this figure should be shown and it should be saved with the
 path examples.png
