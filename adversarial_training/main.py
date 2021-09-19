@@ -159,7 +159,7 @@ TODO: 7. Experiment by training various models with adversarial examples. Compar
       a) The type of attack and its parameters (fgsm and pgd - epsilon, alpha, number of iterations, etc.)
       b) PGD with zero and random initialization.
       c) The model architecture.
-      d) The training epochs.
+      d) The training epochs and learning rate.
 You should only report your experiments and results in the article. However, when you run the code with mode="best_model",
 your best model should be trained and its parameters should be saved as 'best_model.pt'.
 """
