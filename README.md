@@ -13,10 +13,12 @@ For the bonus you will require the AutoAttack implementation, available in the f
 pip install git+https://github.com/fra31/auto-attack
 
 ```
-## General indications
+## General Indications
 
 The homework consists of two parts. In the first part (**2.5 pts**) you will generate adversarial attacks. In the second part (**2.5 pts**) you will train models to be robust to adversarial attacks. Although my suggestion is to complete them in the presented order, they are designed to be independent, so you can tackle them in the order that you want. A code skeleton named as main.py is provided for both parts. You are expected to complete your tasks in the designated spaces of these files. This are the only files that will be executed during evaluation. The main.py file of the first part will be run once, and all tasks are expected to be executed. The main.py file of the second part will be run five times, once per each possible value of the variable mode. For achieving all the possible points for this homework, your code is expected to correctly execute the tasks when the main.py files are run as previously described.
+
 The first part of this homework does not require a GPU. The second part requires CUDA implementations, and the estimated time of each experiment is highly dependent of the parameters selected. It is ***highly recommended*** that you read the whole code skeleton and be sure to understand the already implemented functions before completing your tasks.
+
 An important portion of the code was retrieved from [this webpage](https://adversarial-ml-tutorial.org/). However, most of the tasks were hand-crafted by myself, so I really hope that you enjoy this homework 😊.
 
 ## Tasks
