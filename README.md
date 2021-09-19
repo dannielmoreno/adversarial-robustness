@@ -13,3 +13,5 @@ For the bonus you will require the AutoAttack implementation, available in the f
 pip install git+https://github.com/fra31/auto-attack
 
 ```
+## General indications
+
