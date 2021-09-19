@@ -160,7 +160,7 @@ visualize_attack(example_tensor, uattack_delta, uattack_tensor, model, imagenet_
 """
 TODO: 3. Based on the untargeted_attack() function written previously, create an adapted function for a targeted attack.
 This function will also receive as a parameter the index of one of the 1000 ImageNet classes. Implement this function and
-generate a successful targeted attack to a class of your interest which is not among the top 3 most probable classes
+generate a successful targeted attack to a class of your interest which is not among the top 5 most probable classes
 according to the initial inference. Visualize this attack.
 """
 
