@@ -88,7 +88,7 @@ example_class = most_probable_classes(example_pred, 5, imagenet_classes, print_s
 
 
 """
-TODO: 1. Tune the epsilon, alpha and num_iter parameters in order to achieve an adversarial example that induces a
+TODO: 2. Tune the epsilon, alpha and num_iter parameters in order to achieve an adversarial example that induces a
 misclassification of your original image. REMEMBER TO COMPLETE THE MISSING STEPS IN THE untargeted_attack FUNCTION.
 """
 
@@ -128,7 +128,7 @@ def untargeted_attack(example_tensor, epsilon, alpha, num_iter):
         opt.step()
 
         """
-        CHANGE THE None's IN ORDER TO SATISFY THE FOLLOWING STEPS:
+        TODO: 1. CHANGE THE None's IN ORDER TO SATISFY THE FOLLOWING STEPS:
 
         1. Project the perturbation delta to a L_inf ball of radius epsilon centered in 0
         2. Calculate the resulting adversarial example (changed_tensor) as the sum of the original image and the perturbation.
